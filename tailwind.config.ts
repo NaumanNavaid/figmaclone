@@ -8,7 +8,22 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
+      fontFamily:{
+         rye:["var(--font-Rye)"],
+         Librebodoni:["var(--font-LibreBodoni)"]
+
+
+    
+      },
+      colors:{
+      custom :{
+       brown : " #A29875",
+       brown2 : "#787054",
+
+
+
+
+      } ,
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
